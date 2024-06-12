@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
       const ramenMenu= document.querySelector("#ramen-menu")
       ramenMenu.append(ramenImage)
       displayRamens(ramenOne)
-      console.log(ramenImage)
         ramenImage.addEventListener("click" , ()=>{
           const handleClick = (ramenOne) => {
             handleClick(ramenOne)
